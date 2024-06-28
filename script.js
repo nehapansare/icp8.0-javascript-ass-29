@@ -11,11 +11,11 @@ const answer = document.getElementById("result");
 function makeCharctercount(){
     const inputbox = document.getElementById("input");
 const answer = document.getElementById("result");
-    answer.innerText = Character Count:${inputbox.value.length};
+    answer.innerText = `Character Count:${inputbox.value.length}`;
 
 }
 function makeWordcount(){
     const inputbox = document.getElementById("input");
 const answer = document.getElementById("result");
-    answer.innerText = Word Count:${inputbox.value.split(" ").length};
+    answer.innerText = `Word Count:${inputbox.value.split(" ").length}`;
 }
